@@ -1,8 +1,16 @@
 aid: ergeon
 name: Ergeon
-description: 'Ergeon is a company surfaced as a portfolio company of ggv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: construction-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Ergeon is a nationwide outdoor residential construction company that installs
+  fencing (wood, vinyl, metal, and chain-link), artificial grass, wooden decks,
+  and concrete driveways, patios, and walkways. It pairs a distributed workforce
+  with technology — live video estimates, a 3D fence-quoting calculator at
+  fencequoting.com, satellite site-plan tooling, and a customer portal — to
+  deliver fast, accurate quotes plus managed installation with permit handling,
+  financing (Wisetack), and workmanship warranties. Ergeon runs internal software
+  and vendor integrations (Stripe, Twilio, Talkdesk, AWS, Lob) but does not
+  publish a public developer API; this profile captures its public web, status,
+  and open-source surface for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/ergeon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,29 @@ x-backed-by:
 - ggv-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.ergeon.com/favicon.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Construction Tech
+- Home Improvement
+- Fencing
+- Home Services
+- Field Services
+- Proptech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.ergeon.com/
+- type: About
+  url: https://www.ergeon.com/about-ergeon/
+- type: Careers
+  url: https://www.ergeon.com/careers/
+- type: Blog
+  url: https://www.ergeon.com/blog/
+- type: Support
+  url: https://www.ergeon.com/help/
+- type: PrivacyPolicy
+  url: https://www.ergeon.com/help/202202880/
+- type: TermsOfService
+  url: https://www.ergeon.com/help/202302992/
+- type: Login
+  url: https://app.ergeon.com/sign-in
+- type: GitHubOrganization
+  url: https://github.com/ergeon
+- type: StatusPage
+  url: https://ergeon.instatus.com
+- type: DomainSecurity
+  url: security/ergeon-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
